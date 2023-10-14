@@ -1,0 +1,525 @@
+
+/*** 
+
+====================================================================
+	Main Footer
+====================================================================
+
+***/
+
+.main-footer{
+	position:relative;
+	background-color:var(--color-two);
+}
+
+.main-footer h6{
+	color:var(--white-color);
+	font-weight:600;
+	text-transform:uppercase;
+	margin-bottom:var(--margin-bottom-15);
+}
+
+.main-footer .widgets-section{
+	position:relative;
+	padding:90px 0px 50px;
+}
+
+.main-footer .big-column{
+	position:relative;
+}
+
+.main-footer .footer-column{
+	position:relative;
+	margin-bottom:var(--margin-bottom-30);
+}
+
+.main-footer .location{
+	position:relative;
+	font-weight:600;
+	font-size:var(--font-22);
+	color:var(--white-color);
+	text-transform:uppercase;
+	margin-top:var(--margin-top-30);
+	margin-bottom:var(--margin-bottom-25);
+}
+
+.main-footer .location span{
+	color:var(--main-color);
+}
+
+.main-footer h5,
+.footer-widget h2{
+	letter-spacing:1px;
+	color:var(--white-color);
+	font-size:22px;
+	text-transform:uppercase;
+	margin-bottom:var(--margin-bottom-30);
+	padding-bottom:var(--padding-bottom-20);
+}
+
+.main-footer h5:before,
+.footer-widget h2:before{
+	position:absolute;
+	content:'';
+	left:0px;
+	bottom:0px;
+	width:30px;
+	height:6px;
+	border-radius:50px;
+	background-color:var(--main-color);
+}
+
+.main-footer h5:after,
+.footer-widget h2:after{
+	position:absolute;
+	content:'';
+	left:40px;
+	bottom:0px;
+	width:6px;
+	height:6px;
+	border-radius:50px;
+	background-color:var(--main-color);
+}
+
+.footer-contact-list{
+	position:relative;
+}
+
+.footer-contact-list li{
+	position:relative;
+	display:block;
+	margin-bottom:var(--margin-bottom-20);
+}
+
+.footer-contact-list li a{
+	position:relative;
+	font-weight:600;
+	font-size:var(--font-22);
+	color:var(--white-color);
+	text-transform:uppercase;
+}
+
+.footer-contact-list li a:hover{
+	color:var(--main-color);
+}
+
+.main-footer .links{
+	position:relative;
+}
+
+.main-footer .links li{
+	position:relative;
+	margin-bottom:var(--margin-bottom-15);
+}
+
+.main-footer .links li a{
+	position:relative;
+	font-weight:600;
+	font-size:var(--font-18);
+	color:var(--white-color);
+	text-transform:uppercase;
+}
+
+.main-footer .links li a:hover{
+	color:var(--main-color);
+}
+
+
+.main-footer .social-links{
+	position:relative;
+}
+
+.main-footer .social-links li{
+	position:relative;
+	margin-bottom:var(--margin-bottom-20);
+}
+
+.main-footer .social-links li a{
+	position:relative;
+	font-weight:600;
+	font-size:var(--font-18);
+	color:var(--white-color);
+	text-transform:uppercase;
+	padding-left:var(--padding-left-30);
+}
+
+.main-footer .social-links li a span{
+	position:absolute;
+	left:0px;
+	font-weight:300;
+	font-family: 'Font Awesome 5 Brands';
+}
+
+.main-footer .social-links li a:hover{
+	color:var(--main-color);
+}
+
+.main-footer .footer-bottom{
+	position:relative;
+	text-align:center;
+	padding:25px 0px;
+	background-color:var(--white-color);
+}
+
+.main-footer .copyright{
+	position:relative;
+	font-weight:600;
+	color:var(--color-five);
+	text-transform:uppercase;
+	font-size:var(--font-15);
+}
+
+.main-footer .copyright a{
+	position:relative;
+	color:var(--main-color);
+}
+
+.main-footer.style-two{
+	background-color:var(--color-twentyfive);
+}
+
+.main-footer.style-two .location span{
+	color:var(--white-color);
+}
+
+.main-footer.style-two h5{
+	color:var(--white-color);
+	text-transform:capitalize;
+	font-family:var(--font-family-Jost);
+	padding-bottom:var(--padding-zero);
+}
+
+.main-footer.style-two h5:before,
+.main-footer.style-two h5:after{
+	display:none;
+}
+
+.main-footer.style-two{
+	background-position:right bottom;
+	background-repeat:no-repeat;
+}
+
+.main-footer.style-two .copyright{
+	font-weight:500;
+	text-transform:capitalize;
+	font-family:var(--font-family-Jost);
+}
+
+.main-footer.style-two .links li a,
+.main-footer.style-two .social-links li a{
+	text-transform:capitalize;
+	font-family:var(--font-family-Jost);
+}
+
+.main-footer.style-two .footer-contact-list li a,
+.main-footer.style-two .location{
+	font-weight:600;
+	text-transform:capitalize;
+	font-family:var(--font-family-Jost);
+}
+
+.main-footer.style-two .copyright a,
+.main-footer.style-two .links li a:hover,
+.main-footer.style-two .social-links li a:hover,
+.main-footer.style-two .footer-contact-list li a:hover{
+	color:var(--color-nineteen);
+}
+
+
+
+
+
+.main-footer.style-three{
+	background-color:var(--black-color);
+}
+
+.main-footer.style-three h5{
+	letter-spacing:1px;
+	margin-top:var(--margin-top-25);
+	padding-bottom:var(--padding-zero);
+	margin-bottom:var(--margin-bottom-40);
+	font-family: var(--font-family-Rajdhani);
+}
+
+.main-footer.style-three h5:before,
+.main-footer.style-three h5:after{
+	display:none;
+}
+
+.main-footer.style-three .text{
+	color:var(--color-five);
+	margin-top:var(--margin-top-35);
+	font-family:var(--font-family-Arial);
+}
+
+.footer-contact-list-two{
+	position:relative;
+	margin-top:var(--margin-top-30);
+}
+
+.footer-contact-list-two li{
+	position:relative;
+	display:block;
+	margin-bottom:var(--margin-bottom-15);
+}
+
+.footer-contact-list-two li a{
+	position:relative;
+	font-weight:600;
+	font-size:var(--font-18);
+	color:var(--white-color);
+	text-transform:capitalize;
+	padding-left:var(--padding-left-35);
+	font-family: var(--font-family-Rajdhani);
+}
+
+.footer-contact-list-two .icon{
+	position:absolute;
+	left:0px;
+	top:4px;
+	line-height:1em;
+	font-weight:normal;
+	font-family: "flaticon";
+	color:var(--color-twentyeight)
+}
+
+.footer-contact-list-two li a:hover{
+	color:var(--main-color);
+}
+
+.main-footer.style-three .links li{
+	margin-bottom:var(--margin-bottom-15);
+}
+
+.main-footer.style-three .links li a{
+	font-weight:400;
+	font-size:var(--font-15);
+	color:var(--color-five);
+	text-transform:capitalize;
+	font-family:var(--font-family-Arial);
+}
+
+.main-footer.style-three .social-links li a{
+	font-weight:400;
+	font-size:var(--font-15);
+	color:var(--color-five);
+	text-transform:capitalize;
+	font-family:var(--font-family-Arial);
+}
+
+.main-footer.style-three .social-links li a span{
+	top:0px;
+	color:var(--white-color);
+	font-size:var(--font-16);
+}
+
+.main-footer.style-three .footer-bottom{
+	background-color:var(--black-color);
+	border-top:1px solid rgba(var(--white-color-rgb), 0.10);
+}
+
+.main-footer.style-three .copyright{
+	font-weight:400;
+	color:var(--color-five);
+	font-size:var(--font-14);
+	text-transform:capitalize;
+	font-family:var(--font-family-Arial);
+}
+
+.main-footer.style-three .copyright a{
+	color:var(--color-five);
+}
+
+/*** 
+
+====================================================================
+	Footer Style Two
+====================================================================
+
+***/
+
+.footer-style-two{
+	position:relative;
+	background-color:var(--color-two);
+}
+
+.footer-style-two h4{
+	font-weight:700;
+	color:var(--white-color);
+	text-transform:capitalize;
+	margin-bottom:var(--margin-bottom-30);
+	font-family:var(--font-family-Maven-Pro);
+}
+
+.footer-style-two .widgets-section{
+	position:relative;
+	padding:90px 0px 60px;
+}
+
+.footer-style-two .big-column{
+	position:relative;
+}
+
+.footer-style-two .footer-column{
+	position:relative;
+	margin-bottom:var(--margin-bottom-30);
+}
+
+.footer-style-two .logo-widget .inner-box{
+	position:relative;
+	padding-left:var(--padding-left-100);
+}
+
+.footer-style-two .logo{
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+
+.footer-style-two .location{
+	position:relative;
+	font-weight:500;
+	font-size:var(--font-18);
+	color:var(--white-color);
+	margin-bottom:var(--margin-bottom-15);
+	font-family:var(--font-family-Maven-Pro);
+}
+
+.footer-style-two .location span{
+	color:var(--color-nine);
+}
+
+.footer-style-two .info-links{
+	position:relative;
+}
+
+.footer-style-two .info-links li{
+	position:relative;
+	margin-bottom:var(--margin-bottom-15);
+}
+
+.footer-style-two .info-links li a{
+	position:relative;
+	font-weight:500;
+	font-size:var(--font-18);
+	color:var(--white-color);
+}
+
+.footer-style-two .info-links li a:hover{
+	color:var(--color-nine);
+}
+
+.footer-style-two .social-links{
+	position:relative;
+	margin-top:var(--margin-top-35);
+}
+
+.footer-style-two .social-links li{
+	position:relative;
+	display:inline-block;
+	margin-right:var(--margin-right-15);
+}
+
+.footer-style-two .social-links li a{
+	position:relative;
+	font-size:var(--font-20);
+	color:var(--white-color);
+}
+
+.footer-style-two .social-links li a:hover{
+	color:var(--color-nine);
+}
+
+.footer-style-two .social-links li a span{
+	font-weight:300;
+	font-family: 'Font Awesome 5 Brands'; 
+}
+
+.footer-style-two .links{
+	position:relative;
+}
+
+.footer-style-two .links li{
+	position:relative;
+	margin-bottom:var(--margin-bottom-15);
+}
+
+.footer-style-two .links li a{
+	position:relative;
+	font-weight:500;
+	font-size:var(--font-17);
+	color:var(--white-color);
+	text-transform:capitalize;
+	font-family:var(--font-family-Maven-Pro);
+}
+
+.footer-style-two .links li a:hover{
+	color:var(--color-nine);
+}
+
+.footer-style-two .footer-bottom{
+	position:relative;
+	text-align:center;
+	padding:25px 0px;
+	background-color:var(--white-color);
+}
+
+.footer-style-two .copyright{
+	position:relative;
+	font-weight:600;
+	color:var(--color-fourteen);
+	text-transform:capitalize;
+	font-size:var(--font-15);
+	font-family:var(--font-family-Maven-Pro);
+}
+
+.footer-style-two .copyright a{
+	position:relative;
+	color:var(--color-fourteen);
+}
+
+.footer-style-two.style-two{
+	background-color:var(--color-thirtythree);
+}
+
+.footer-style-two.style-two h4{
+	font-weight:800;
+	letter-spacing:2px;
+	font-family: var(--font-family-Kumbh);
+}
+
+.footer-style-two.style-two .links li a{
+	font-weight:500;
+	font-family: var(--font-family-Kumbh);
+	color:rgba(var(--color-five-rgb), 1);
+}
+
+.footer-style-two.style-two .location{
+	font-weight:400;
+	color:var(--color-five);
+	font-size:var(--font-17);
+	font-family: var(--font-family-Kumbh);
+}
+
+.footer-style-two.style-two .location span{
+	color:var(--color-five);
+}
+
+.footer-style-two.style-two .info-links li a{
+	font-weight:400;
+	color:var(--color-five);
+	font-size:var(--font-17);
+	font-family: var(--font-family-Kumbh);
+}
+
+.footer-style-two.style-two .footer-bottom{
+	background-color:var(--color-thirtythree);
+	border-top:1px solid rgba(var(--color-five-rgb), 0.20);
+}
+
+.footer-style-two.style-two .copyright,
+.footer-style-two.style-two .copyright a{
+	font-weight:400;
+	color:var(--color-five);
+	font-family: var(--font-family-Kumbh);
+}
